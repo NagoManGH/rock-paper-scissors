@@ -130,9 +130,9 @@
     //And the second one ys here 
     document.querySelector('.js-move').innerHTML
      = `You 
-          <img src="/F.JavaScript Practice Exercises And projects /IconPhotos/${playerMove}-emoji.png" alt="rock image"
+          <img src="${playerMove}-emoji.png" alt="rock image"
           class="move-icon">
-          <img src="/F.JavaScript Practice Exercises And projects /IconPhotos/${computerMove}-emoji.png" alt="scissors image"
+          <img src="${computerMove}-emoji.png" alt="scissors image"
           class="move-icon">
           Computers `;
     
